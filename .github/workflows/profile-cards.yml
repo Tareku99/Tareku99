@@ -2,7 +2,7 @@ name: Refresh profile cards
 
 on:
   push:
-    branches: [main]
+    branches: [main, profile-readme]
     paths:
       - .github/workflows/profile-cards.yml
   schedule:
@@ -25,7 +25,7 @@ jobs:
         uses: stats-organization/github-readme-stats-action@e856fc8de9d7729b463c468911e232cfbdc3d55e # v2.0.2
         with:
           card: stats
-          options: username=${{ github.repository_owner }}&show_icons=true&theme=gotham
+          options: username=${{ github.repository_owner }}&show_icons=true&theme=gotham&custom_title=GitHub%20Stats
           path: profile/stats.svg
           fail_on_error: true
 

@@ -2,7 +2,7 @@ name: Refresh profile cards
 
 on:
   push:
-    branches: [main, profile-readme]
+    branches: [main]
     paths:
       - .github/workflows/profile-cards.yml
   schedule:

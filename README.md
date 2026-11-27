@@ -16,6 +16,6 @@
 ## Projects
 
 - [Snapmaker U1 Extended Firmware](https://github.com/paxx12-snapmaker-u1/SnapmakerU1-Extended-Firmware) — I contribute build reliability and firmware configuration improvements.
-- [U1 Obico Installer](https://github.com/Tareku99/snapmaker_u1_obico) — Automated Obico installation for the Snapmaker U1 with Extended Firmware.
-- [ACELink](https://github.com/Tareku99/ACELink) — Work with Anycubic ACE Pro devices without an Anycubic printer.
+- [U1 Obico Installer](https://github.com/Tareku99/snapmaker-u1-obico-installer) — Automated Obico installation for the Snapmaker U1 with Extended Firmware.
+- [ACELink](https://github.com/Tareku99/acelink) — Work with Anycubic ACE Pro devices without an Anycubic printer.
 - [AniList ↔ MyAnimeList Sync](https://github.com/Tareku99/anilist-mal-sync) — Sync anime lists between the two services, with OAuth, conflict handling, and Docker deployment.
